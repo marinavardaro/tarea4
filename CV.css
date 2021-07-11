@@ -1,0 +1,51 @@
+body{
+    background-color: palevioletred;
+}
+h1{
+    color: cornsilk;
+    background-color: darkmagenta;
+    text-align: center;
+    font-family:inherit;
+}
+h2{
+    color:midnightblue;
+    text-align: center;
+
+}
+h3{
+    color:blueviolet;
+    font-family: fantasy;
+}
+
+h4{
+    color:darkslategrey;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    color:darkslateblue;
+    font-style: italic;
+}
+
+p{
+    font-weight:800;
+}
+
+li{
+    font-weight:800;
+}
+
+.relleno{
+font-weight: normal;
+}
+
+img {
+    width: 300px; height: 300px ; margin: 10px; 
+}
+     
+.foto{
+    text-align: center;
+    background-color: ivory;
+}
+

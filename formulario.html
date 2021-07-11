@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form action="">
+        <p class="encabezado">
+            Si estás interesado en contactarme, completa con tus datos.
+        </p>
+        <p>
+            <label for="nom">Nombre y apellido:</label>
+            <input type="text" name= "Nombre y apellido" />
+        </p>
+        <p>
+            <label for="emp">Empresa: </label>
+            <input type="text" empresa= "Nombre de la empresa">
+        </p>
+        <p>
+            <label for="telmail">Teléfono/E-mail:</label>
+            <input type="text" telmail= "Número de teléfono y correo" />
+        </p>
+        <p>
+            <label> Perfiles Visitados </label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="perfiles visitados []" value="git hub" id="git hub"  >
+                        <label for="git hub">Git Hub</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="perfiles visitados []" value="linkedin" id="linkedin"  >
+                        <label for="linkedin">Linkedin</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="perfiles visitados []" value="otros" id="otros"  >
+                        <label for="otros">Otros</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="perfiles visitados []" value="ninguno" id="ninguno"  >
+                        <label for="ninguno">Ninguno</label>
+                    </li>
+                </ul>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios: </label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"/>
+        </p>
+
+        <p class="retorno">
+            <a href="CV.html"> Volver </a>
+        </p>
+    </form>
+</body>
+</html>

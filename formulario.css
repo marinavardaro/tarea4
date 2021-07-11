@@ -1,0 +1,27 @@
+body{
+    background-color: palevioletred;
+}
+
+.retorno{
+    color:blueviolet;
+    font-family: fantasy;
+    font-weight:800
+}
+
+form{
+
+    color:darkslategrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800
+}
+
+li{
+    font-weight: normal;
+
+}
+
+.encabezado{
+    color:lavenderblush;
+    font-family: fantasy;
+    font-weight:75
+}
